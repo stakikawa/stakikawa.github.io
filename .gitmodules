@@ -1,0 +1,3 @@
+[submodule "public/demos/fluid-sim-2d"]
+	path = public/demos/fluid-sim-2d
+	url = git@github.com:stakikawa/fluid-sim-2d.git
