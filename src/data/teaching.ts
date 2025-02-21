@@ -10,28 +10,28 @@ export interface Teaching {
 export const teachingData: Teaching[] = [
   {
     date: "Spring 2025",
-    title: "Graduate Teaching Assistant",
+    title: "Teaching Assistant",
     institution: "University of British Columbia",
     description:
       "CPSC 424: Geometric Modeling",
   },
   {
     date: "Spring 2024",
-    title: "Graduate Teaching Assistant",
+    title: "Teaching Assistant",
     institution: "University of British Columbia",
     description:
       "CPSC 427: Video Game Programming",
   },
   {
     date: "Fall 2023",
-    title: "Graduate Teaching Assistant",
+    title: "Teaching Assistant",
     institution: "University of British Columbia",
     description:
       "CPSC 427: Video Game Programming",
   },
   {
     date: "Spring 2022",
-    title: "Undergraduate Teaching Assistant",
+    title: "Teaching Assistant",
     institution: "University of British Columbia",
     description:
       "CPSC 314: Computer Graphics",
