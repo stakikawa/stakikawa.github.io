@@ -28,7 +28,7 @@ export const experienceData: Experience[] = [
   {
     date: "Summer 2022",
     title: "Software Engineer Intern",
-    company: "Intel",
+    company: "Intel Corporation",
     description:
       "3D graphics performance triage/debug and driver development.",
     companyUrl: "https://www.intel.com",
