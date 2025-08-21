@@ -9,6 +9,13 @@ export interface Teaching {
 
 export const teachingData: Teaching[] = [
   {
+    date: "Fall 2025",
+    title: "Teaching Assistant",
+    institution: "University of British Columbia",
+    description:
+      "CPSC 524: Computer Graphics: Modeling",
+  },
+  {
     date: "Spring 2025",
     title: "Teaching Assistant",
     institution: "University of British Columbia",
