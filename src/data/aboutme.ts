@@ -23,7 +23,10 @@ export const aboutMe: AboutMe = {
   institution: "University of British Columbia",
   // Note that links work in the description
   description:
-    "I'm a PhD student at the University of British Columbia, working on computer graphics research, in particular geometry processing. I also do some game development on the side. I'm always on the lookout for interesting research opportunities (including internships), so feel free to reach out!",
+    'I am a Computer Science PhD student at the University of British Columbia, advised by <a href="https://www.cs.ubc.ca/~sheffa/">Dr. Alla Sheffer</a>. ' +
+    'I carry out research in computer graphics, primarily working with geometry. ' +
+    'My research is generously supported by the MITACS Accelerate program and the UBC Four Year Doctoral Fellowship.<br><br>' +
+    'I am always on the lookout for interesting research opportunities (including collaborations & internships), so please feel free to reach out!',
   email: "stakikaw@cs.ubc.ca",
   imageUrl:
     "/images/profile_pic.jpg",
