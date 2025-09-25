@@ -15,7 +15,7 @@ export const portfolioData: Portfolio[] = [
     technologies: ["C++", "OpenGL"],
     projectUrl: "https://kevinmkchin.itch.io/ascent",
     imageUrl:
-      "/images/ascent.png",
+      "/images/ascent.jpg",
   },
   {
     title: "WebGL 2D Fluid Simulation",
@@ -24,7 +24,7 @@ export const portfolioData: Portfolio[] = [
     technologies: ["JavaScript", "WebGL", "THREE.js"],
     projectUrl: "https://stakikawa.github.io/demos/fluid-sim-2d/",
     imageUrl:
-      "/images/fluid-sim.png",
+      "/images/fluid-sim.jpg",
   },
   {
     title: "Stanford Bunny Re-interpretation",
@@ -33,7 +33,7 @@ export const portfolioData: Portfolio[] = [
     technologies: ["Python, GLSL"],
     projectUrl: "https://www.shadertoy.com/view/Xc2czW",
     imageUrl:
-      "/images/bunny.png",
+      "/images/bunny.jpg",
   },
   {
     title: "Pathtracer Denoising",
@@ -42,7 +42,7 @@ export const portfolioData: Portfolio[] = [
     technologies: ["GLSL"],
     projectUrl: "https://www.shadertoy.com/view/7dyyDy",
     imageUrl:
-      "/images/pathtracer_denoising.png",
+      "/images/pathtracer_denoising.jpg",
   },
 ];
 
