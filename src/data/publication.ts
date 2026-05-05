@@ -17,7 +17,7 @@ export const publicationData: Publication[] = [
       conference: "SIGGRAPH",
       title: "ADS: Random Sampling of Occupancy Functions using Adaptive Delaunay Scaffolding",
     authors: "Suzuran Takikawa, Leo Foord-Kelcey, Oliver Oxford, Nicholas Vining, Alla Sheffer",
-    paperUrl: "https://www.cs.ubc.ca/labs/imager/tr/2025/ads/",
+    paperUrl: "https://www.cs.ubc.ca/labs/imager/tr/2026/ads/",
     imageUrl: "/images/ads.jpg"
   },
   {
