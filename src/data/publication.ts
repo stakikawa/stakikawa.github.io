@@ -13,6 +13,14 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   {
+    year: "2026",
+      conference: "SIGGRAPH",
+      title: "ADS: Random Sampling of Occupancy Functions using Adaptive Delaunay Scaffolding",
+    authors: "Suzuran Takikawa, Leo Foord-Kelcey, Oliver Oxford, Nicholas Vining, Alla Sheffer",
+    paperUrl: "https://www.cs.ubc.ca/labs/imager/tr/2025/ads/",
+    imageUrl: "/images/ads.jpg"
+  },
+  {
     year: "2025",
     conference: "SIGGRAPH Asia",
     title: "Capturing Non-Linear Human Perspective in Line Drawings",
