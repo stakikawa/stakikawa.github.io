@@ -4,3 +4,6 @@
 [submodule "public/demos/car-display"]
 	path = public/demos/car-display
 	url = git@github.com:stakikawa/car-display.git
+[submodule "external/gfx-sandbox"]
+	path = external/gfx-sandbox
+	url = git@github.com:stakikawa/gfx-sandbox.git

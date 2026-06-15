@@ -9,6 +9,16 @@ export interface Portfolio {
 
 export const portfolioData: Portfolio[] = [
   {
+    title: "Gfx-Sandbox",
+    description:
+      "Implementing various graphics and game technologies in a WebGPU environment.",
+    technologies: ["TypeScript", "WebGPU"],
+    projectUrl: "https://stakikawa.github.io/demos/gfx-sandbox/",
+    codeUrl: "https://github.com/stakikawa/gfx-sandbox",
+    imageUrl:
+      "/images/gfx-sandbox.jpg",
+  },
+  {
     title: "Ascent",
     description:
       "Ascent is a 2D roguelike action platformer game made for CPSC427, a video game development course at UBC. The entire game is written with OpenGL and C++. We were runner-up for Best Game, selected by an industry panel.",
@@ -23,6 +33,7 @@ export const portfolioData: Portfolio[] = [
       "Real-time 2D Fluid Simulation running on GPU using WebGL and THREE.js.",
     technologies: ["JavaScript", "WebGL", "THREE.js"],
     projectUrl: "https://stakikawa.github.io/demos/fluid-sim-2d/",
+    codeUrl: "https://github.com/stakikawa/fluid-sim-2d",
     imageUrl:
       "/images/fluid-sim.jpg",
   },

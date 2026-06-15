@@ -77,6 +77,12 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+      - name: Build gfx-sandbox demo
+        run: |
+          npm --prefix external/gfx-sandbox ci
+          npm --prefix external/gfx-sandbox run build
+          mkdir -p out/demos/gfx-sandbox
+          cp -r external/gfx-sandbox/dist/. out/demos/gfx-sandbox/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
